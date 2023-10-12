@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header  */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.header_left img {
+  height: 70px;
+  height: 80px;
+  margin-left: 5px;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+}
+
+.header_left span {
+  padding: 10px;
+  cursor: pointer;
+}
+.header_middle {
+  display: flex;
+  align-items: center;
+  flex: 0.7;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+}
+.material-icons {
+  color: grey;
+}
+.header_middle input {
+  width: 100%;
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 10px;
+  font-size: medium;
+}
+.header_right {
+  display: flex;
+  padding-right: 20px;
+}
+.header_right span {
+  padding: 10px;
+  cursor: pointer;
+}
+/* sidebar */
+
+.sidebar {
+  flex: 0.3;
+  max-width: 300px;
+}
+
+.sidebar_compose {
+  background-color: white;
+  border: none;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-top: 15px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: gray;
+  border-radius: 30px;
+  outline: none;
+
+  box-shadow: 0px 2px 5px -2px rgba(0, 0, 0, 0.75);
+}
+
+.sidebar_compose span {
+  margin-right: 5px;
+}
+
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  color: #818181;
+  padding: 10px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  cursor: pointer;
+}
+
+.sidebarOption span {
+  margin: 5px;
+}
+
+.sidebarOption h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sidebarOption:hover,
+.sidebarOption:hover h3,
+.sidebarOption:hover span {
+  background-color: #fcecec;
+  color: #c04b37;
+
+  font-weight: 800;
+}
+
+.sidebar_footer {
+  display: flex;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.sidebar_footer span {
+  margin: 7px;
+  cursor: pointer;
+}
+
+/* mainbody starts */
+
+.main-body {
+  display: flex;
+}
+
+/* Email List Starts */
+.emailList {
+  flex: 1;
+}
+
+.emailList_settings {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid whitesmoke;
+  background-color: white;
+  padding: 8px;
+}
+
+.emailList_settings_left {
+  display: flex;
+  align-items: center;
+}
+
+.emailList_settings .material-icons {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.emaillist_section {
+  display: flex;
+  border-bottom: 1px solid whitesmoke;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  cursor: pointer;
+  color: grey;
+  min-width: 200px;
+}
+
+.section:hover {
+  background-color: whitesmoke;
+  border-width: 3px;
+}
+
+/* email section row starts */
+
+.emailRow {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  border-bottom: 1px solid whitesmoke;
+  cursor: pointer;
+}
+
+.emailRow_options {
+  display: flex;
+  align-items: center;
+}
+.emailRow_options .material-icons,
+input {
+  margin: 5px;
+}
+
+.emailRow__message {
+  display: flex;
+  flex: 0.8;
+  align-items: center;
+  font-size: 15px;
+}
+
+.emailRow__title {
+  font-size: 13px;
+  flex: 0.3;
+}
+
+.emailRow__time {
+  padding-right: 10px;
+}
